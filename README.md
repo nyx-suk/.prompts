@@ -98,4 +98,21 @@ docker-compose up -d
 
 # Install RN package correctly (never npm install)
 npx expo install [package-name]
+
+# Not needed but.. its for the dummies
+git init                  # Start a new local repository
+git clone <url>           # Download an existing repository
+
+git status                # View current changes and untracked files
+git add .                 # Stage all changes for the next commit
+git commit -m "message"   # Save staged changes with a note
+
+git branch <branch-name>  # Create a new branch
+git switch <branch-name>  # Switch to a different branch
+git merge <branch-name>   # Merge another branch into your current one
+
+git push                  # Upload your local commits to GitHub
+git pull                  # Download newest updates from GitHub
+
+git log --oneline         # View a brief history of your commits
 ```
